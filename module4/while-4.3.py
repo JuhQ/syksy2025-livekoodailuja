@@ -1,10 +1,11 @@
 arvo = input("Enter a number")
 
+if arvo == "":
+    print("Ensimmäinen arvo ei saa olla tyhjä merkkijono")
+
 pienin = int(arvo)
 suurin = int(arvo)
 
-print(min([1,2,3,4]))
-print(max([1,2,3,4]))
 
 while arvo != "":
     luku = int(arvo)
